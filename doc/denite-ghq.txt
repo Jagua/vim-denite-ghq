@@ -1,0 +1,55 @@
+*denite-ghq.txt*  denite source: ghq
+
+Version: 0.1.0
+Author: Jagua
+License: MIT License (http://opensource.org/licenses/mit-license.php)
+
+
+
+==============================================================================
+INTRODUCTION                                         *denite-ghq-introduction*
+
+|denite-ghq| is a source for |denite| to deal with ghq. You can choose one
+from many directories and chdir into it.
+
+
+Requirements:
+- Vim or Neovim
+- |denite|
+- ghq
+  https://github.com/motemen/ghq
+- Python 3.5 or later
+
+Latest version:
+https://github.com/Jagua/vim-denite-ghq
+
+
+
+==============================================================================
+INTERFACE                                               *denite-ghq-interface*
+
+------------------------------------------------------------------------------
+COMMANDS                                                 *denite-ghq-commands*
+
+:DeniteGhq                                                        *:DeniteGhq*
+        Ghq with Denite.
+
+
+
+==============================================================================
+SOURCES                                                   *denite-ghq-sources*
+
+ghq     Gather directories managing by ghq.                *denite-source-ghq*
+
+
+
+==============================================================================
+CHANGELOG                                               *denite-ghq-changelog*
+
+0.1.0   2016-10-10
+        - Initial version.
+
+
+
+==============================================================================
+vim:tw=78:ts=8:sw=2:ft=help:et:norl:fen:fdl=0:

@@ -1,0 +1,17 @@
+# vim-denite-ghq
+
+*vim-denite-ghq* is a Vim plugin. This plugin is a source for *denite.nvim* to deal with *ghq*.
+
+This plugin depends on:
+* [denite.nvim](https://github.com/Shougo/denite.nvim)
+* [ghq](https://github.com/motemen/ghq)
+
+Latest: https://github.com/Jagua/vim-denite-ghq
+
+
+## Usage
+
+```vim
+:Denite ghq
+
+```
