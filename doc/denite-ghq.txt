@@ -1,6 +1,6 @@
 *denite-ghq.txt*  denite source: ghq
 
-Version: 0.1.0
+Version: 0.1.1
 Author: Jagua
 License: MIT License (http://opensource.org/licenses/mit-license.php)
 
@@ -26,17 +26,6 @@ https://github.com/Jagua/vim-denite-ghq
 
 
 ==============================================================================
-INTERFACE                                               *denite-ghq-interface*
-
-------------------------------------------------------------------------------
-COMMANDS                                                 *denite-ghq-commands*
-
-:DeniteGhq                                                        *:DeniteGhq*
-        Ghq with Denite.
-
-
-
-==============================================================================
 SOURCES                                                   *denite-ghq-sources*
 
 ghq     Gather directories managing by ghq.                *denite-source-ghq*
@@ -45,6 +34,9 @@ ghq     Gather directories managing by ghq.                *denite-source-ghq*
 
 ==============================================================================
 CHANGELOG                                               *denite-ghq-changelog*
+
+0.1.1   2018-10-24
+        - Remove DeniteGhq command.
 
 0.1.0   2016-10-10
         - Initial version.
