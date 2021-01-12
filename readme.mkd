@@ -18,7 +18,7 @@ Latest: https://github.com/Jagua/vim-denite-ghq
 
 You can change ghq option as follows example.
 
-```
+```vim
 " Use vcs option
 call denite#custom#var('ghq', 'command',
   \ ['ghq', 'list', '--full-path', '--vcs', 'git'])
